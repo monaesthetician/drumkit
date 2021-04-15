@@ -4,10 +4,20 @@ html {
   background-size: cover;
 }
 
+h1 {
+  border: ridge;
+  border-width: 10px;
+  color: #fff;
+  font-size: 48px;
+  text-align: center;
+  margin-top: 0;
+
+}
 body,html {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+  background-image: url(./U\ R\ what\ ur\ listening\ to.jpg);
 }
 
 .keys {
@@ -19,7 +29,7 @@ body,html {
 }
 
 .key {
-  border: .4rem solid black;
+  border: .4rem solid #fff;
   border-radius: .5rem;
   margin: 1rem;
   font-size: 1.5rem;
